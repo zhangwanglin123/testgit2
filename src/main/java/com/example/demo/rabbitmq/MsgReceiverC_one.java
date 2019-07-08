@@ -11,8 +11,8 @@ import org.springframework.stereotype.Component;
 public class MsgReceiverC_one {
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
-   /* @RabbitHandler
+   @RabbitHandler
     public void process(String content) {
         logger.info("处理器one接收处理队列A当中的消息： " + content);
     }
-*/}
+ }
